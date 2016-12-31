@@ -8,20 +8,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- defines scale of screen. By not limiting scale by defining min and max sizes means the user can zoom in on your pages -->
 
 	<link rel="stylesheet" href="buildingWebsites101.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 </head>
 
 <body class="body">
 
 	<header class="mainheader">
-		<img src="img/corn.jpg">
+		<h1 class="mainHeaderTitle">Building Websites 101</h1>
+		<h4 class="mainHeaderTitleInfo">Using HTML, CSS & JavaScript<h4>
 
 		<nav>
 			<ul>
-				<li><a href="#" class="active">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#" class="active">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">GitHub</a></li>
+				<li><a href="#">Cheat Sheets</a></li>
+				<li><a href="#">Upload to Live</a></li>
+				<li><a href="#">JavaScript Basics</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -30,11 +35,106 @@
 		<div class="content">
 			<article class="topContent">
 				<header>
-					<h2><a href="#" title="First Post">First Post</a></h2>
+					<h2><a href="#" title="Starting a Webpage in HTML">Starting a Webpage in HTML</a></h2>
 				</header>
 				
 				<footer>
-					<p class="postInfo">This post is written by Chris Joiner</p>
+					<p class="postInfo">Key information and tags to start a webpage</p>
+				</footer>
+
+				<content>
+
+					<img src="img/starting_a_webpage_html2.png">
+				</br>
+					<p>The above code is written out below with comments to explain what each section means</p>
+				</br>
+					&lt;!DOCTYPE html&gt;<p class="comments">&lt;!DOCTYPE&gt; informs the browser which version of HTML (or XML) you used to write the document.</p></br>
+					
+					&lt;html lang="en"&gt; <p class="comments">Lang defines the language</p> </br>
+					</br>
+					
+					&lt;head&gt;<p class="comments">The HTML &lt;head&gt; element provides general information (metadata) about the document, including its title and links to its scripts and style sheets</p></br> 
+					</br>
+						
+						&lt;title&gt;Building Websites 101&lt;/title&gt;</br>
+						</br>
+						&lt;meta charset="utf-8"> <p class="comments">Meta charset tells the browser what character set you're using, so it can better render the text on screen.<p> </br>
+						
+						&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <p class="comments">This defines scale of screen. By not limiting scale (i.e. by not defining a max sizes) means the user can zoom in on your pages</p></br>
+						</br>
+						
+						&lt;link rel="stylesheet" href="buildingWebsites101.css" type="text/css"&gt;</br> <p class="comments">Link to main css stylesheet</p>
+						
+						&lt;link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet"&gt;</br> <p class="comments">link to goole fonts stylesheet specifically for Arima Madurai font</p>
+						
+						&lt;link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"&gt;</br>
+						</br>
+					
+					&lt;/head&gt;</br>
+					</br>
+					
+					&lt;body class="body"&gt;<p class="comments">The body is where the main content of the webpage will be placed</p></br>
+					...</br>
+					
+					&lt;/body&gt;</br>
+					</br>
+					
+					&lt;/html&gt;</br>
+
+				</content>
+			</article>
+			<article class="middleContent" id="#1">
+				<header>
+					<h2><a href="#" title="Styling using CSS">Styling using CSS</a></h2>
+				</header>
+				
+				<footer>
+					<p class="postInfo">CSS and media queries are used to dynamically style webpages</p>
+				</footer>
+
+				<content>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo eur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</content>
+			</article>
+			<article class="middleContent" id="#2">
+				<header>
+					<h2><a href="#" title="Versioning using GitHub">Versioning using GitHub</a></h2>
+				</header>
+				
+				<footer>
+					<p class="postInfo">GitHub is used to keep track of changes to projects</p>
+				</footer>
+
+				<content>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo eur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</content>
+			</article>
+			<article class="middleContent" id="#3">
+				<header>
+					<h2><a href="#" title="HTML and CSS cheat sheets">HTML and CSS cheat sheets</a></h2>
+				</header>
+				
+				<footer>
+					<p class="postInfo">REFERENCE SOURCE OF CHEAT SHEETS HERE</p>
+				</footer>
+
+				<content>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo eur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</content>
+			</article>
+			<article class="middleContent" id="#4">
+				<header>
+					<h2><a href="#" title="Uploading to Live">Uploading to Live</a></h2>
+				</header>
+				
+				<footer>
+					<p class="postInfo">Using Bitballoon and Heroku</p>
 				</footer>
 
 				<content>
@@ -45,11 +145,11 @@
 			</article>
 			<article class="bottomContent">
 				<header>
-					<h2><a href="#" title="Second Post">Second Post</a></h2>
+					<h2><a href="#" title="JavaScript Basics">JavaScript Basics</a></h2>
 				</header>
 				
 				<footer>
-					<p class="postInfo">This post is written by Chris Joiner</p>
+					<p class="postInfo">Overview of key JavaScript Basics</p>
 				</footer>
 
 				<content>
@@ -63,21 +163,28 @@
 
 	<aside class="topSideBar">
 		<article>
-			<h2>Top Sidebar</h2>
+			<h2>Responsive Web Design Video</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 		</article>
 	</aside>
 
-	<aside class="middleSideBar">
+	<aside class="middleSideBar" id="#1">
 		<article>
-			<h2>Top Sidebar</h2>
+			<h2>TreeHouse</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+		</article>
+	</aside>
+
+	<aside class="middleSideBar" id="#2">
+		<article>
+			<h2>Another video</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 		</article>
 	</aside>
 
 	<aside class="bottomSideBar">
 		<article>
-			<h2>Top Sidebar</h2>
+			<h2>Useful Links</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 		</article>
 	</aside>

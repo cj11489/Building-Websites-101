@@ -1,5 +1,5 @@
 body {
-	background-color: #B1E3CF;
+	background-color: #42ab9e;
 	color: #7D7C7A;
 	font-size: 87.5%;
 	font-family: Arial, 'Licida Sans Unicode';
@@ -21,18 +21,31 @@ a:hover, a:active {
 
 .body {
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
 	clear: both; /*prevents floating*/
 }
 
-.mainheader img {
-	width: 50%;
-	height: auto;
-	margin: 2% 0;
+.mainHeaderTitle {
+	margin-top: 4%;
+	margin-bottom: 0%;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 5em;
+	color: #FFF;
+}
+
+.mainHeaderTitleInfo {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+	margin-top: 0%;
+	margin-left: 10%;
+	color: #ecd06f;
+	letter-spacing: 1.5px
+
 }
 
 .mainheader nav {
-	background-color: #FFC09F;
+	background-color: #F7B733;
 	height: 40px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -75,16 +88,17 @@ a:hover, a:active {
 	float: left;
 }
 
-.topContent {
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 3% 5%;
-	margin-top: 2%;
+.content img {
+	display: block;
+	width: 100%;
 }
 
-.bottomContent {
+.comments {
+	color: red;
+	font-style: none
+}
+
+.topContent, .middleContent, .bottomContent {
 	background-color: #FFF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -141,7 +155,7 @@ a:hover, a:active {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-color: #FFC09F;
+	background-color: #F7B733;
 	margin-top: 2%;
 	margin-bottom: 2%;
 	height: 40px;
@@ -164,7 +178,7 @@ a:hover, a:active {
 	}
 
 	.mainheader nav {
-		height: 160px;
+		height: 240px;
 	}
 
 	.mainheader nav ul {
