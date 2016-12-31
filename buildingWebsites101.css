@@ -143,6 +143,7 @@ a:hover, a:active {
 	-webkit-border-radius: 5px;
 	background-color: #FFC09F;
 	margin-top: 2%;
+	margin-bottom: 2%;
 	height: 40px;
 }
 
@@ -153,18 +154,73 @@ a:hover, a:active {
 
 @media only screen and (min-width: 150px) and (max-width: 600px) {
 
-	body {
-		background-color: #B1E3CF;
-		color: #7D7C7A;
-		font-size: 87.5%;
-		font-family: Arial, 'Licida Sans Unicode';
-		line-height: 1.5;
-		text-align: left;
+	.body {
+		width: 90%;
+		font-size: 95%;
 	}
 
-	
+	.mainheader img {
+		width: 100%;
+	}
 
+	.mainheader nav {
+		height: 160px;
+	}
+
+	.mainheader nav ul {
+		padding-left: 0px;
+	}
+
+	.mainheader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainheader nav a:link, .mainheader nav a:visited {
+		display: block;
+	} 
+
+	.mainContent {
+		line-height: 28px
+	}
+
+	.content {
+		width: 100%;
+		margin-top: 2%;
+	}
+
+	.postInfo {
+		display: none;
+	}
+
+	.topContent {
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+
+	.bottomContent {
+		margin-top: 3%;
+		margin-bottom: 4%;
+	}
+
+	.topSideBar, .middleSideBar, .bottomSideBar {
+		width: 94%;
+		float: left;
+		margin-left: 0%;
+		margin-top: 0%;
+		margin-bottom: 4%;
+	}
+
+	.mainFooter p {
+		margin: 2% auto;
+	}
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
 
+	.body {
+		width: 80%;
+		font-size: 80%;
+	}
 
+}
