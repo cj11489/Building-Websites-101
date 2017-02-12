@@ -149,6 +149,13 @@ a:hover, a:active {
 	margin-bottom: 2%;
 }
 
+.video {
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10%;
+	padding-top: 5%;
+}
+
 .mainFooter {
 	width: 100%;
 	float: left;
